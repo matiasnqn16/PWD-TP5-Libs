@@ -1,0 +1,17 @@
+{
+    "name": "grupo4/utiles",
+    "description": "TP sobre Utiles/Librerias",
+    "type": "librerias",
+    "require": {
+        "j4mie/idiorm": "dev-master"
+    },
+    "license": "none",
+    "autoload": {
+        "psr-4": {
+            "Grupo4\\Utiles\\": "src/",
+            "Control\\": "Control/",
+            "Modelo\\": "Modelo/"
+        }
+    },
+    "minimum-stability": "dev"
+}
